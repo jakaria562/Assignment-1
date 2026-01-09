@@ -44,6 +44,7 @@ nav .btn {
   font-size: 16px;
   font-style: bold;
   gap: 10px;
+  cursor: pointer;
 
 font-weight: bold;
 }
@@ -51,7 +52,7 @@ font-weight: bold;
   margin-top: 24px;
   margin-left: 0px;
   margin-right:0px ;
-  border: 1px solid red;
+
   align-items: center;
   padding: 166.5px 415px;
   background-image: url("assets/hero-bg.png");
@@ -64,7 +65,7 @@ font-weight: bold;
  border-radius: 25px;
 margin-right: 200px;
 margin-left: 200px;
-
+ cursor: pointer;
  
 }
 #banner .banner-content h1{
@@ -94,6 +95,7 @@ padding:16px ;
   border-radius: 5px;
   color: #ffffff;
   align-items: center;
+   cursor: pointer;
 }
 .btn-4{
   font-size: 16px;
@@ -102,11 +104,40 @@ padding:16px ;
   background: transparent;
   color: #ffffff;
   border-color: #ffffff;
+   cursor: pointer;
 
 }
 .button{
   align-items: center;
   gap: 16px;
 margin-left: 130px;
+ cursor: pointer;
 
+}
+#skills{
+  padding-top:30px;
+
+}
+#skills .skills-container{
+  width:1360px;
+  margin: 0 auto;
+    text-align: center;
+}
+.skill-box{
+  display: flex;
+  gap:24px
+  
+}
+.skill-card{
+  padding: 30px;
+  border: 1px solid red;
+  max-width: 322px;
+  margin-top: 30px;
+}
+.skill-card img{
+  max-width:32px;
+ border: 14px;
+ padding: 2.50;
+  border-radius: 360px;
+  background-color: #F95555;
 }
