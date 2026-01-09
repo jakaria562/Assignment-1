@@ -47,3 +47,66 @@ nav .btn {
 
 font-weight: bold;
 }
+#banner{
+  margin-top: 24px;
+  margin-left: 0px;
+  margin-right:0px ;
+  border: 1px solid red;
+  align-items: center;
+  padding: 166.5px 415px;
+  background-image: url("assets/hero-bg.png");
+ background-repeat: no-repeat;
+}
+#banner .btn-2{
+   align-content: center;
+ color: #30B868;
+ padding: 10px;
+ border-radius: 25px;
+margin-right: 200px;
+margin-left: 200px;
+
+ 
+}
+#banner .banner-content h1{
+  font-family: inter;
+font-size: 72px;
+font-style: bold;
+color: white;
+padding:16px ;
+  text-align: center;
+}
+.color{
+  color: #30B868;
+}
+#banner .banner-content p{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: inter;
+  padding: 16px;
+  text-align: center;
+   
+}
+
+.btn-3{
+  background-color: #30B868;
+  font-size: 16px;
+  padding: 16.5px;
+  border-radius: 5px;
+  color: #ffffff;
+  align-items: center;
+}
+.btn-4{
+  font-size: 16px;
+  padding: 16.5px;
+  border-radius: 5px;
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+
+}
+.button{
+  align-items: center;
+  gap: 16px;
+margin-left: 130px;
+
+}
