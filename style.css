@@ -125,19 +125,37 @@ margin-left: 130px;
 }
 .skill-box{
   display: flex;
-  gap:24px
+  gap:24px;
+  max-width: 1360px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  
   
 }
 .skill-card{
   padding: 30px;
-  border: 1px solid red;
+ box-shadow: 5px 5px 5px 5px #e6dddd;
   max-width: 322px;
   margin-top: 30px;
+  
 }
 .skill-card img{
-  max-width:32px;
+  max-width:60px;
  border: 14px;
- padding: 2.50;
+ padding:15px;
   border-radius: 360px;
   background-color: #F95555;
+  text-align: center;
+  margin-top: 30px;
+}
+.skill-card h3{
+  font-size: 24px;
+  color: #001931;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.skill-card p{
+  font-size: 16px;
+  color:#627382 ;
 }
